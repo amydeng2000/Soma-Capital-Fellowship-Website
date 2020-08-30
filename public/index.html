@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Startup Shadowing @Soma">
+    <link rel="icon" type="image/png" href="img/somalogo.png" />
+    <!-- <meta name="author" content="It's never a bad time to build something great"> -->
+
+    <!-- Facebook preview properties -->
+    <meta property="og:image" content="img/preview.jpg"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Startup Shadowing @Soma"/>
+    <meta property="og:description" content="Apply to our summer/fall cohort by June 5th!"/>
+    <meta property="og:url" content="https://fellowship.somacap.com/"/>
+
+
+    <title>Soma Fellowship</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css?v=1" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css?v=1" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <script defer src="/__/firebase/7.14.5/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.5/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
+
+    <!-- Navigation -->
+    <!-- <nav class="navbar navbar-white bg-white static-top">
+      <div class="container">
+        <div class="col-lg-1">
+            <img class="img-fluid rounded-circle mb-3" src="img/somalogo.jpg" alt="">
+        </div>
+        <a class="navbar-brand" style="color:#54317d;"><b>STARTUP SHADOWING @SOMA</b></a>
+        <a class="btn btn-primary" href="#">Apply</a>
+      </div>
+    </nav> -->
+
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h1 class="mb-5">It's never a bad time<br> to build something great</h1>
+          </div>
+          <div class="col-md-10 col-lg-5 col-xl-10 mx-auto">
+            <!-- <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                </div>
+              </div>
+            </form> -->
+            <!-- <div class="col-12 col-md-3">
+              <button type="submit" class="btn btn-block btn-lg btn-primary">Apply</button>
+            </div> -->
+            <a class="applybtn applybtn-primary" href="https://airtable.com/shrv2NJk1QmmDBVjb" target="_blank"><b>Apply</b></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <h3>
+          <a style="color:#54317d; font-size:36px;"><b>Startup Shadowing @Soma...</b></a><br>
+          <b>
+            is like getting a backstage pass to startup building.
+            Learn from some of the best early stage founders and use that to start something yourself with Soma's help!
+          </b>
+        </h3>
+         <br> <br> <br> <br>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-purplepeople m-auto text-primary"></i>
+              </div>
+              <h3 style="color:#54317d;">Shadow a Founder</h3>
+              <p class="lead mb-0">Shadow one of 30+ seed-stage portfolio founders as a design, engineering, or business intern</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-purplegrid m-auto text-primary"></i>
+              </div>
+              <h3 style="color:#54317d;">Build a Venture</h3>
+              <p class="lead mb-0">Find real-world problems through the internship & start your own venture with Soma's mentorship</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-purpletrophy m-auto text-primary"></i>
+              </div>
+              <h3 style="color:#54317d;">Pitch to Soma</h3>
+              <p class="lead mb-0">Pitch to Soma for funding opportunities and continued support from Soma's network</p>
+            </div>
+            <br><br><br>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-md-10 col-lg-12 col-xl-9 mx-auto">
+        <form>
+          <div class="form-row">
+            <div class="col-12 col-md-9 mb-2 mb-md-0">
+              <!-- <input type="email" class="form-control form-control-lg" placeholder="Enter your email..."> -->
+              <h3 style="color:#54317d;">Learn about Soma's future events & opportunities</h3>
+            </div>
+            <div class="col-9 col-md-3 mx-auto">
+              <a class="btn btn-block btn-lg btn-purpleprimary" href="https://airtable.com/shrLYfVjSvzfIfVJk" target="_blank"><b>Stay in touch!</b></a>
+              <!-- <button class="btn btn-block btn-lg btn-purpleprimary" href="https://airtable.com/shrLYfVjSvzfIfVJk" target="_blank">Stay in touch!</button> -->
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Image Showcases
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-1.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Fully Responsive Design</h2>
+            <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Updated For Bootstrap 4</h2>
+            <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Easy to Use &amp; Customize</h2>
+            <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+    <section class="showcase text-center bg-white">
+      <div class="container">
+        <br><br><br><br><br>
+        <!-- <a style="font-size:35px"><b>Soma Capital's Portfolio Highlights</b></a> -->
+        <h2>Soma Capital's Portfolio Highlights</h2>
+        <br>
+        <p class="lead mb-0">
+          <a href="https://www.somacap.com/" style="color:#654190;" target="_blank"><b>Soma Capital</b></a> has invested in over 200
+          early-stage startups including Cruise, Ironclad, Rappi, and Lambda School (combined valuation
+          of over $35b across all portfolio companies). Click <a href="https://www.somacap.com/companies/" style="color:#654190;" target="_blank"><b>here</b></a>
+          to see a full list.
+        </p>
+        <br><br><br><br>
+        <div class="row">
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://www.rappi.com/" target="_blank"><img class="img-fluid" src="img/rappi.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://www.getcruise.com/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/cruise.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://lambdaschool.com/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/lambda.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://alto.com/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/alto.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://www.astranis.com/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/astrains.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://thisisl.com/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/thisisL.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://ironcladapp.com/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/ironclad.jpg" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-auto">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0 col-sm-auto">
+              <a href="https://www.scentbird.com/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/scentbird.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+    </section>
+
+
+
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+              <h1 style="color:#fff">FAQ</h1>
+              <br> <br>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>Who is Startup Shadowing @Soma for?</b></a> <br>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>Any undergrad/graduate student or new grad who aspires to build their own venture!</li>
+                  <li>Some participating companies are looking for MBA's and students interested in biotech</li>
+                  <li>Outstanding high school students are welcomed as well!</li>
+                </ul>
+                <br>
+              </p>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>What can I get out of Startup Shadowing @Soma?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>A <u>paid</u>, immersive, personalized experience working with founders in building a company from 0 to 1 </li>
+                  <li>Exclusive access to Soma's workshops, network, and mentorship throughout your internship and as you launch your own startup and beyond</li>
+                  <li>A lifelong relationship with entrepreneurial peers nationwide who are together creating the future</li>
+                </ul>
+                <br>
+              </p>
+
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>What resources can I tap into?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>Soma Capital's advisors, including co-founder of Scribd </li>
+                  <li>Soma Capital's sister fund, Bow Capital, and their advisors and portfolio companies, including founder of Qualcomm and Shaq O'Neal</li>
+                  <li>Soma Capital's LP base: founder of Tinder, government leaders globally, family offices of FAANG founders, etc</li>
+                </ul>
+                <br>
+              </p>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>Can I choose to work at a specific company?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>Finalists can choose up to 5 preferred companies, and your preferences will be take into consideration during companies' vetting process</li>
+                </ul>
+                <br>
+              </p>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>Can I interact with portfolio companies other than the one I work at?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>Yes! We will organize virtual panels and fireside chats with other seed and later stage companies in our portfolio and network</li>
+                </ul>
+                <br>
+              </p>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>What does the incubation program look like?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>Weekly office hours with the Soma team</li>
+                  <li>Masterclass and fireside chats with expert founders and investors</li>
+                  <li>Weekly or biweekly fellowship events and check-ins</li>
+                  <li>Open channels for content sharing and discussions</li>
+                </ul>
+                <br>
+              </p>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>How long is the fellowship? What does summer/fall cohort mean?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>If you are in the summer cohort, you will shadow a founder over the summer, participate in the incubation program & build your own startup in the fall, and present your final pitch to Soma Capital's investment committee in late 2020</li>
+                  <li>If you are in the fall cohort, you will shadow in the fall, build your startup over winter, and pitch at the end of Q1 2021 </li>
+                </ul>
+                <br>
+              </p>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>Will this be remote? Will this be full time?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>Both cohorts are fully remote!</li>
+                  <li>Startup Shadowing @Soma has two modules: internship and incubation. 
+                    The internship program will be full time; the incubation program will be part time but is expected to be time intensive as working on a startup is!
+                  </li>
+                </ul>
+                <br>
+              </p>
+              <p style="text-align: left;">
+                <a style="font-size:24px"><b>What does the application timeline look like?</b></a>
+                <ul style="text-align: left;color:#D3D3D3">
+                  <li>Submit the application form by June 5th, 11:59 pm PST</li>
+                  <li>Selected semifinalists will participate in a video interview</li>
+                  <li>Finalists for both the summer and fall cohort will be announced around June 15th</li>
+                  <li>Companies will conduct separate interviews and make the summer cohort hiring decisions around June 22nd; fall cohort hiring decisions will be made by late July</li>
+                </ul>
+                <br> <br> <br>
+              </p>
+          </div>
+
+          <div class="col-md-10 col-lg-5 col-xl-10 mx-auto">
+            <a class="applybtn applybtn-primary" href="https://airtable.com/shrv2NJk1QmmDBVjb" target="_blank"><b>Apply Now</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <br><br><br>
+        <h2 class="mb-5">Our Team</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <a href="https://www.linkedin.com/in/jessica-li-12b74968" target="_blank"> <img class="img-fluid rounded-circle mb-3" src="img/jessica.jpg" alt=""> </a>
+              <h5><a style="color:black">Jessica Li</a></h5>
+              <p class="font-weight-light mb-0">Harvard 2019<br>
+                Investor at Soma Capital<br>
+                Head of Content at Elpha & Techstars </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <a href="https://www.linkedin.com/in/amykexindeng" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/amy.JPG" alt=""></a>
+              <h5><a style="color:black">Amy Deng</a></h5>
+              <p class="font-weight-light mb-0">Berkeley 2023 <br>
+                 MiraclePlus (prev. YC China) Intern <br>
+                  Education @BerkeleyVentureCapital</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <a href="https://www.linkedin.com/in/akashanant/" target="_blank"><img class="img-fluid rounded-circle mb-3" src="img/anant.jpg" alt=""></a>
+              <h5><a style="color:black">Anant Akash</a></h5>
+              <p class="font-weight-light mb-0">Michigan 2019 <br>
+                 Founder of <a href="https://intern.club/" style=color:black target="_blank">intern.club</a> <br>
+                 Prev. DoNotPay, Duo Security</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="https://www.somacap.com/" style="color:#54317d" target="_blank">
+                  Soma Capital
+                </a>
+              </li>
+              <li class="list-inline-item" style="color:#54317d">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="mailto:jessica@somacap.com?subject=Questions on Startup Shadowing @Soma" style="color:#54317d">Contact</a>
+              </li>
+              <li class="list-inline-item" style="color:#54317d">&sdot;</li>
+              <a href="https://twitter.com/SomaShadows?" style="color:#54317d" target="_blank">
+                Updates
+              </a>
+              <!-- <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li> -->
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">
+              <a style="color:#AEB6BF">&copy; Soma Capital 2020. All Rights Reserved.
+              </a>
+            </p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Check out an amazing opportunity to work with some of the best early stage companies remote &amp; get exclusive access to Soma Capital&#39;s mentorship!" data-via="SomaShadows" data-hashtags="startups" data-related="SomaCapital" data-lang="en" data-show-count="false">Tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <ul class="list-inline mb-0">
+              <div class="fb-share-button" data-href="https://fellowship.somacap.com/" data-layout="button" data-size="large">
+                <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffellowship.somacap.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore" data-text="Check out">Share on Facebook
+                </a>
+              </div>
+              <!-- <li class="list-inline-item mr-3">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Check out an amazing opportunity to work with some of the best early stage companies remote &amp; get exclusive access to Soma Capital&#39;s mentorship! https://fellowship.somacap.com/" data-via="SomaShadows" data-hashtags="startups" data-related="SomaCapital" data-lang="en" data-show-count="false">Tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </li>
+              <li class="list-inline-item mr-3">
+                <div class="fb-share-button" data-href="https://fellowship.somacap.com/" data-layout="button" data-size="large">
+                  <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ffellowship.somacap.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share on Facebook
+                  </a>
+                </div>
+              </li>               -->
+         <!-- <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fab fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fab fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>
