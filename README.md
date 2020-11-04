@@ -9,7 +9,13 @@ My medium article here: https://medium.com/@kexindeng2000/soma-capital-fellowshi
 This website was designed, coded, and launched within 3 days. We attracted 440+ applicants in 11 days while marketing using this website. </br>
 The website incorporated bootstrap as a framework, using HTML, CSS, and Javascript. Here're some screenshots for the website:
 
-![Landing Page](/public/imag/landing_page.jpg)
+![Landing Page](/public/img/landing_page.jpg)
 
-![Our Value Propositions](/public/imag/value_prop.jpg)
+![Our Value Propositions](/public/img/value_prop.jpg)
+
+![Showcase Portfolio Companies](/public/img/port_cos.jpg)
+
+![Application FAQ](/public/img/faq.jpg)
+
+![Team Introduction](/public/img/team.jpg)
 
